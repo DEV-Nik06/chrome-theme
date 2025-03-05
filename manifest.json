@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Custom New Tab Theme",
+    "version": "1.0",
+    "description": "A custom theme for the Chrome new tab page",
+    "icons": {
+      "128": "icon.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Knewave&display=swap');
+
+body {
+ 
+    font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #1C1C1C;
+  color: #000000;
+
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.5em;
+  margin-bottom: 5rem;
+  font-style: normal;
+    text-align: center;
+    color: #f7f3d9; 
+}
+h2 {
+  font-size: 2em;
+  padding-top: 1rem;
+ border: 2px solid #f7f3d9;
+  font-style: normal;
+  /* color: #fff; */
+    text-align: center;
+}
+
+.hero {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+    background:rgb(239, 88, 1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    /* color: white; */
+    gap: 3rem;
+}
+.Container{
+   
+    
+        width: 20%;
+        height: 40vh;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        /* border: 1px solid rgba(255, 255, 255, 0.3); */
+        /* color: white; */
+    
+    
+}
+.Container::before{
+  content: "";
+  height: 2px;
+  width: 100%;
+  background:  #f7f3d9;
+  position: absolute;
+  top: 55px;
+  right: 0;
+}
+
+#stop{
+    position: absolute;
+    bottom: 0;
+    right:0 ;
+    background-color: #4a4848;
+    border: none;
+    color: white;
+}
+
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    color: rgb(39, 38, 38);
+    font-size: 6rem;
+    
+    
+}
+
+.title{
+  color: #f7f3d9;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
